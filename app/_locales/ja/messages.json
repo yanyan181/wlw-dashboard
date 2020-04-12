@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "wlw dashboard",
+    "description": "wlwダッシュボード"
+  },
+  "appShortName": {
+    "message": "wlw board",
+    "description": "wlwダッシュボード"
+  },
+  "appDescription": {
+    "message": "wlwの勝率見たりとかできるchromeの拡張機能",
+    "description": "wlwの勝率見たりとかできるchromeの拡張機能"
+  },
+  "browserActionTitle": {
+    "message": "wlw dashboard",
+    "description": "popup"
+  }
+}

@@ -51,13 +51,15 @@ export function createCastData(
         )
       : 0;
   const winRate: number =
-    useRate !== 0
+    winCount !== 0
       ? Math.round((winCount / (winCount + loseCount)) * 100 * 10) / 10
       : 0;
   const killRate: number =
-    useRate !== 0 && deathCount !== 0
-      ? Math.round((killCount / deathCount) * 100) / 100
-      : killCount;
+    winCount !== 0
+      ? deathCount !== 0
+        ? Math.round((killCount / deathCount) * 100) / 100
+        : killCount
+      : 0;
   const castData: CastData = {
     name: name,
     id: +id,
