@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "noImplicitAny": true,
+    "noImplicitUseStrict": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "lib": ["dom", "es2017", "es6"],
+    "noImplicitThis": true
+  }
+}
