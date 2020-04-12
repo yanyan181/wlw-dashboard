@@ -383,7 +383,7 @@ function UserDataBoard(props: UserDataBoradProps) {
       <Paper className={classes.boardGrid}>
         <Grid container>
           <Grid item xs={12}>
-            <Typography variant="h5">wlwダッシュボードv1.0</Typography>
+            <Typography variant="h5">wlwダッシュボードv1.02</Typography>
             <Typography variant="caption">
               wlwの戦績を詳細に見るための非公式ツールです。
               <br />
@@ -405,7 +405,8 @@ function UserDataBoard(props: UserDataBoradProps) {
             敗北数：{userData.loseCount}
           </Grid>
           <Grid item xs={12}>
-            勝率：{userData.winRate !== 0 ? userData.winRate.toFixed(2) : 0}％
+            勝率：
+            {userData.winRate !== 0 ? (userData.winRate * 100).toFixed(2) : 0}％
           </Grid>
           <Grid item xs={12}>
             キルレシオ：

@@ -2,7 +2,7 @@
   "name": "wlw-dashboard",
   "short_name": "wlw-dashboard",
   "description": "wlwの勝率をみたりできます",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
   "default_locale": "ja",
   "icons": {
