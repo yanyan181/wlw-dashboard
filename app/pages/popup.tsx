@@ -85,7 +85,7 @@ const App: React.FC = () => {
                   </Avatar>
                 }
                 title={
-                  <Typography variant="h4">wlwダッシュボードver0.1</Typography>
+                  <Typography variant="h4">wlwダッシュボードver1.03</Typography>
                 }
               />
             </Grid>
